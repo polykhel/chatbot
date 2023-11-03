@@ -18,10 +18,10 @@ export default function MainLayout() {
           <h1 className="text-l m-0">My App</h1>
           <nav>
             <NavLink className={navLinkClasses} to="/">
-              Hello World
+              Chat
             </NavLink>
-            <NavLink className={navLinkClasses} to="/about">
-              About
+            <NavLink className={navLinkClasses} to="/streaming">
+              Streaming Chat
             </NavLink>
           </nav>
         </header>
